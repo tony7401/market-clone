@@ -31,6 +31,19 @@ footer{
     transform: scale(0.8);
 }
 
+@keyframes icons-둥-둥{
+    from{ transform: translateY(10px);
+
+    }to{ transform: translateY(0px);
+
+    }
+}
+
 .footer-icons__img{
     width: 30px;
+    
+}
+
+.footer-icons:hover{
+    animation: 2s icons-둥-둥;
 }
